@@ -101,9 +101,7 @@ $(function() {
 
         // Add new Ranban card
         $("#btn_submit").click(function(event) {
-    
             let text = $("#content").val();
-            alert(text);
             $.ajax({
                     type:'POST',
                     url:"{{ route('kanbancard.store') }}",
