@@ -1,0 +1,38 @@
+.wrapper{
+    padding-left: 150px; 
+    padding-right: 150px;
+    padding-bottom: 40px;
+}
+.card-header{
+    text-align: center;
+    background-color: #F96347 !important;
+}
+.content-body{
+    min-height: 500px;
+}
+button{
+    background-color: #F96347 !important;
+}
+button:hover{
+    background-color: #ee10c9 !important;
+    color: #ffff !important;
+}
+.card-border{
+    border: 1px solid #000;
+}
+.content-bg{
+    background-color: #DDDDDD !important;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.content-bg:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+ul{
+  padding-left: 0px !important;
+}
+ul>li{
+  margin-bottom: 5px;
+}
