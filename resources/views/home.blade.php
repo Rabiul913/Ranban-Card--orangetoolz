@@ -110,13 +110,13 @@ $(function() {
                         console.log(data)
                     
                     }
+                    
             });
 
             $('#content').val("");
             $('div.content_text').find('ul').append(card(text));
 
         });
-
   
   });
 
